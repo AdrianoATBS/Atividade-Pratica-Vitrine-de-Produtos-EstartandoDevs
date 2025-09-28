@@ -1,8 +1,7 @@
 //@ts-ignore
 import { produtos } from "./dados_produtos";
-//@ts-ignore
-import CardProduto from "./components/CardProduto"
-import type { Produto } from "./types/produto.js";
+import CardProduto from "./components/CardProduto";
+import type { Produto } from "./components/CardProduto";
 
 function App() {
 

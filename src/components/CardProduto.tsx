@@ -1,8 +1,20 @@
 import React from "react";
 
 
+export interface Produto {
+  id: number;
+  nome: string;
+  preco: number;
+  imagemUrl: string;
+  categoria: string;
+  emEstoque?: boolean; 
+}
 
-export default function CardProduto({ produto }) {
+interface CardProdutoProps {
+    produto: Produto;
+}
+
+export default function CardProduto({ produto }: CardProdutoProps) {
 
     return(
         <div>
